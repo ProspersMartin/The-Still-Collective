@@ -1,3 +1,575 @@
-/* 
-    General Styles
-*/
+// @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+// @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+
+        // GENERAL STYLING (That affects every page) //
+                            body{
+                                background: linear-gradient(249deg, #f3a201e0 38%, #f5a80f 70%);
+                            }
+
+
+        // STILL NAVBAR //
+                            .navbarlink {
+                                color:whitesmoke;
+                                font-family: 'Dancing Script', cursive;
+                                font-size:  20px;
+                            }
+                            .navbarlink:hover {
+                                color: black;
+                                text-decoration: none;
+                            }
+
+                    //Still Homepage link (Top-Left Corner Link)
+                            .stillLogoNav{
+                                color:whitesmoke;
+                                font-family: 'Dancing Script', cursive;
+                                font-size:40px;
+                            }
+                            .stillLogoNav:hover {
+                                color: black;
+                                text-decoration: none;
+                            }
+                            #still_TNav{
+                                font-family: 'Cinzel', serif;
+                            }
+                            #still_illNav{
+                                position: relative;
+                                bottom: 1px;
+                            }
+                            #still_sNav{
+                                position: relative;
+                                bottom: 2px;
+                            }
+
+                    //"Portfolio" Link
+                            #portfolio_porNav{
+                                position: relative;
+                                bottom: 1px;
+                                line-height: 1.8;
+                            }
+                            #portfolio_TNav{
+                                font-family: 'Cinzel', serif;
+                            }
+                            #portfolio_folioNav{
+                                position: relative;
+                                bottom: 1px;
+                            }
+
+                    //"Collective" Link
+                            #collective_collecNav{
+                                position: relative;
+                                bottom: 1px;
+                            }
+                            #collective_TNav{
+                                font-family: 'Cinzel', serif;
+                            }
+                            #collective_iveNav{
+                                position: relative;
+                                bottom: 1px;
+                            }
+ 
+                    //"Logout" Link
+                            #collective_logoutNav{
+                                position: relative;
+                                bottom: 1px;
+                            }
+ 
+
+
+        // STILL FOOTER //
+                            .footer-item {
+                                font-size: 18px;
+                                color:whitesmoke;
+                                font-family: 'Dancing Script', cursive;
+                            }
+                            .footer-item:hover {
+                                color: black;
+                                text-decoration: none;
+                            }
+
+                    //"Contact" Link
+                            #contact_conFoot{
+                                position: relative;
+                                bottom: 1px;
+                            }
+                            #contact_TFoot{
+                                font-family: 'Cinzel', serif;
+                            }
+                            #contact_actFoot{
+                                position: relative;
+                                bottom: 1px;
+                            }
+
+                    //"Terms & Conditions" Link
+                            #terms_TFoot{
+                                font-family: 'Cinzel', serif;
+                            }
+                            #terms_ermsFoot{
+                                position: relative;
+                                bottom: 1px;
+                            }
+                            #conditions_condiFoot{
+                                position: relative;
+                                bottom: 1px;
+                            }
+                            #conditions_TFoot{
+                                font-family: 'Cinzel', serif;
+                            }
+                            #conditions_ionsFoot{
+                                position: relative;
+                                bottom: 1px;
+                            }
+
+                    //A and Copyright Symbol
+                            .footer-item2 {
+                                font-size: 16px;
+                                color:whitesmoke;
+                                font-family:'Josefin Sans', sans-serif;
+                                line-height: 1.9em;
+                            }
+                            .footer-item3 {
+                                font-size: 18px;
+                                color:whitesmoke;
+                                font-family: 'Dancing Script', cursive;
+                            }
+                            .footer-item4 {
+                                font-size: 16px;
+                                color:whitesmoke;
+                                font-family:'Josefin Sans', sans-serif;
+                                line-height: 1.9em;
+                            }
+                            .footer-item4:hover {
+                                color: black;
+                                text-decoration: none;
+                            }
+                    //Still
+                            #still_sFooter{
+                                position: relative;
+                                bottom: 1px;
+                            }
+                            #still_TFooter{
+                                font-family: 'Cinzel', serif;
+                            }
+                            #still_illFooter{
+                                position: relative;
+                            }
+
+
+        // LANDING (HOME/ "ABOUT") PAGE //
+                    //Landing (Home/ "About") Page Effects
+                            .fadein {
+                                font-size: 21px;
+                                text-align: center;
+                                animation: fadein 10s;
+                                -moz-animation: fadein 5s; /* Firefox */
+                                -webkit-animation: fadein 5s; /* Safari and Chrome */
+                                -o-animation: fadein 5s; /* Opera */
+                            }
+                            
+                            @keyframes fadein {
+                                from {
+                                    opacity:0;
+                                }
+                                to {
+                                    opacity:1;
+                                }
+                            }
+                            @-moz-keyframes fadein { /* Firefox */
+                                from {
+                                    opacity:0;
+                                }
+                                to {
+                                    opacity:1;
+                                }
+                            }
+                            @-webkit-keyframes fadein { /* Safari and Chrome */
+                                from {
+                                    opacity:0;
+                                }
+                                to {
+                                    opacity:1;
+                                }
+                            }
+                            @-o-keyframes fadein { /* Opera */
+                                from {
+                                    opacity:0;
+                                }
+                                to {
+                                    opacity: 1;
+                                }
+                            }
+
+            //Center of "About/Homepage"
+                //Text Effects
+                            //.hide {
+                                //visibility: hidden;
+                            //}
+
+                    //Main Big "Still" Logo
+                            .stillLogo{
+                                font-family: 'Dancing Script', cursive;
+                                color:whitesmoke;
+                                font-size: 290px;
+                                line-height: 150px;
+                            }
+
+                            .stillT{
+                                font-family: 'Cinzel', serif;
+                            }
+
+                            .sPositioning {
+                                position: relative;
+                                left: 40px;
+                                bottom: 15px;
+                            }
+                            .illpositioning {
+                                position: relative;
+                                right: 40px;
+                                bottom: 5px;
+                            }
+
+                    //Main "Collective" text
+                            #collective{
+                                font-family:'Josefin Sans', sans-serif;
+                                font-size: 42px;
+                            }
+                                //Main "Collective" shadow
+                                        .elegantshadow {
+                                            color: #131313;
+                                            letter-spacing: .1em;
+                                            text-shadow:
+                                            -16px 19px 0 #00000010,
+                                        }
+
+                    //Main "S.I.M. (Strategy Identity Marketing)" text
+                            .SIM {
+                                font-family: 'Josefin Sans', sans-serif;
+                                font-size:22px;
+                            }
+            //Bottom of "About/Homepage"
+                    //Main "About Us" text blurb
+                            .aboutus {
+                                width: 75%;
+                                margin:auto;
+                                font-family: 'Josefin Sans', sans-serif;
+                                border-bottom: double;
+                            }
+                            .about {
+                                font-size: 20px;
+                                background-color: white;
+                                border-bottom:1px solid black;
+                                padding: 38px;
+                            }
+                            
+        // PORTFOLIO PAGE //
+                    //"Portfolio" Header
+                            .portfolio_page_header {
+                                color:whitesmoke;
+                                font-family: 'Dancing Script', cursive;
+                                font-size:  100px;
+                            }
+                            #portfolio_Ppage{
+                                position: relative;
+                            }
+                            #portfolio_TPpage{
+                                font-family: 'Cinzel', serif;
+                            }
+
+                    // Portfolio Jumbotrons
+                            .jumbotron {
+                                border-bottom:solid;
+                                border-top:solid;
+                                background-color: white;
+                            }
+                            .display-4{
+                                font-family:  'Josefin Sans', sans-serif;
+                            }
+                            .card-img-top {
+                                border:solid;
+                            }
+
+                            .myarrow{
+                                position:absolute;
+                                top:0;
+                                bottom:0;
+                                transform: rotate(90deg);
+                            }
+                            .line {
+                                border-right: 0.2rem dashed rgb(5, 1, 1);
+                                display:inline-block;
+                                height:5rem;
+                            }
+                            .arrow{
+                                position:absolute;
+                                top:-0.3rem;
+                                bottom:0;
+                                height:1rem;
+                                border-right: 0.2rem solid rgb(7, 5, 5);
+                                display: inline-block;
+                            }
+                            .right{
+                                left:0.3rem;
+                                transform: rotate(-45deg);
+                            }
+                            .left{
+                                right:0.3rem;
+                                transform: rotate(45deg);
+                            }
+
+
+        // "SERVICES" PAGE //
+                            #servicesSectionBlurb {
+                                text-align: left;
+                                font-weight: 500;
+                            }
+                            .shadowdiv{
+                               box-shadow: -15px 15px;
+                               background-color: black;
+
+                            }
+                            .bg-red {
+                                background-color:rgb(255, 255, 255);
+                                border: 5px solid black;
+                                border-radius: 25px;
+                                background: linear-gradient(120deg, #e7e7e7 50%, #ffffff 70%);
+
+                            }
+                            .servicepackages{
+                                font-family:'Josefin Sans', sans-serif;
+                                font-size: 80px;
+                            }
+                            .stillp{
+                                font-family:'Josefin Sans', sans-serif;
+                                font-size: 30px
+                            }
+                            .li{
+                                font-family: 'Cinzel', serif;
+                            }
+                            .servicecard2 {
+                                background-color: rgb(155, 153, 153);
+                                padding:2px;
+                            }
+                            .servicecard2:hover {
+                                border: 2px solid rgb(17, 17, 17);
+                                padding: 1px;
+                                background-color: rgb(185, 185, 185);
+                                background-color: rgb(68,68,68); /* For IEs */
+                                -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+                                -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+                                box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+                    /* This protects the inner element from being blurred */
+                                filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+                                -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+                                zoom: 1;
+                                position: relative; 
+                            }
+                            .servicetext {
+                                color:white;
+                                font-family: 'Cinzel', serif;
+
+                            }
+                            .servicep{
+                                font-family:'Josefin Sans', sans-serif;
+                            }
+                            .bg-details1 {
+                                background-color: rgb(109, 108, 108);
+                                color: white;
+                            }
+                            .bg-details2 {
+                                background-color:rgb(155, 153, 153);
+                                color: white;
+                            }
+                            .bg-details3 {
+                                background-color: rgb(204, 201, 201);
+                                color: white;
+                            }
+                            hr-white {
+                                color: white;
+                                border:10px;
+                            }
+
+                    //Service Headers
+                            .maintitle1 {
+                                font-family: 'Josefin Sans', sans-serif;
+                            }
+                            .maintitle2 {
+                                font-family: 'Josefin Sans', sans-serif;
+                            }
+                            .maintitle3 {
+                                font-family: 'Josefin Sans', sans-serif;
+                            }
+        
+                    //singleservice//
+                            .singleservice{
+                                border-top:solid;
+                                border-bottom:solid;
+                            }
+                            .singletext1{
+                                font-family:   'Cinzel', serif;
+                                border-bottom :double;
+                            }
+                            .singletext2{
+                                font-family:   'Cinzel', serif;
+                            }
+
+
+        // "LOGIN" PAGE //
+                            .logintitle{
+                                font-family:'Cinzel', serif;
+
+                            }
+                            .loginbottom{
+                                font-family:'Cinzel', serif;
+                            }
+
+
+        //"REGISTER" PAGE //
+                            .registertop{
+                                font-family:'Cinzel', serif;
+                            }
+                            .registerbottom{
+                                font-family:'Cinzel', serif;
+                            }
+
+
+        // CONFIRMATION PAGE //
+                            .App{
+                                font-family: 'Josefin Sans', sans-serif;
+                                border:solid;
+                                max-width: 810px;
+                            }
+
+
+
+.card-click {
+    cursor:pointer;
+}
+
+.dark-transparent {
+    background-color: #6e6e6e9a;
+    width: 100%;
+    padding: 15px;
+        border-radius: 15px;
+}
+
+.dbHover:hover {
+    background: black;
+    color: white;
+}
+
+
+//********* Hey T, I have no idea what this belongs to... Do you? **********
+.aboutleft {
+    background-color:white;
+    color: orange;
+    padding: 10px;
+}
+
+.aboutright {
+    background-color: orange;
+}
+
+.col-md.d-flex.justify-content-center {
+    font-size: 5em;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.imgshadow {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 10px  black;
+}
+.text{
+    font-size:  25px;
+    color:black;
+}
+* {
+    box-sizing: border-box;
+}
+.App {
+    max-width: 420px;
+    margin: 0 auto;
+}
+p {
+    text-align: center;
+    font-weight: 500;
+}
+input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.col-md.d-flex.justify-content-center {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1em;
+}
+#p {
+    font-size:  15px;
+    color:white;
+}
+
+// ************************************************************************
+// ************************************************************************
+
+
+
+//**********************************************************************************************
+//**********************************************************************************************
+//Unused Navbar Styling (This styling code was messing stuff up, or not giving the desired look)
+        // .backgrounddiv {
+        //     height: 400px;
+        //     width: 250px;
+        //     position: absolute;
+        //     z-index: -1 ;
+        //     background: rgba(226, 154, 19, 0.842);
+        //     top: -100px;
+        // }
+
+        // .navlink {
+        //     font-size:290px
+        // }
+
+        // li.nav-item {
+        //     font-family: 'Dancing Script', cursive;
+        //     font-size: 1.4em;
+        // }
+
+        // .navcolor li{
+        //     color:white
+        //
+        // .unHover:hover {
+        //     color: white;
+        //         padding: 0px;
+        // }
+
+        // .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        //     color: black;
+        // }
+
+        // // a {
+        // //     font-size:  30px;
+        // //     color:white;
+        // }

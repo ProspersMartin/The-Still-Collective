@@ -11,22 +11,30 @@ const injectContext = PassedComponent => {
 		constructor(props) {
 			super(props);
 
-			//this will be passed as the contenxt value
+			//this will be passed as the context value
 			this.state = getState({
 				getStore: () => this.state.store,
-				setStore: updatedStore =>
+				setStore: updatedStore => {
+					localStorage.setItem("store", JSON.stringify(Object.assign(this.state.store, updatedStore)));
 					this.setState({
 						store: Object.assign(this.state.store, updatedStore)
-					})
+					});
+				}
 			});
 		}
 
+		loggedInDiDMount(currentLoogedInClient) {}
+
 		componentDidMount() {
-			/**
-			 * EDIT THIS!
-			 * This function is the equivalent to "window.onLoad", it only run once on the entire application lifetime
-			 * you should do your ajax requests or fetch api requests here
-			 **/
+			const store = localStorage.getItem("store");
+			if (typeof store != "undefined" && store) {
+				this.setState({ store: JSON.parse(store) });
+				if (store.token) this.loggedInDiDMount(store.client);
+			}
+
+			console.log("This is your store in localstorage: ", store);
+			this.state.actions.getServices();
+			this.state.actions.getClients();
 		}
 
 		render() {

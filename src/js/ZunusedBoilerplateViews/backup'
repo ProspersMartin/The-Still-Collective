@@ -1,0 +1,13 @@
+										<card key={index}>
+											<div className="row">
+												<div className="col-sm-6">
+													<div className="card">
+														<div className="card-body">
+															<h3>{item.title}</h3>
+
+															<p className="card-text">{item.description}</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</card>
