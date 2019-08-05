@@ -1,4 +1,4 @@
-import { Notify } from "bc-react-notifier";
+// import { Notify } from "bc-react-notifier";
 
 const getState = ({ getStore, setStore }) => {
 	return {
@@ -88,7 +88,7 @@ const getState = ({ getStore, setStore }) => {
 					.then(token => {
 						console.log("oooooooooooooooo", token);
 						if (typeof token.msg != "undefined") {
-							Notify.error(token.msg);
+							// Notify.error(token.msg);
 						} else {
 							setStore({ token: token.jwt, tempLoggedUser: loggedUser });
 							history.push("/dashboard");
