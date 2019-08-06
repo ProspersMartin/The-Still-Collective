@@ -8,7 +8,6 @@ export class SingleService extends React.Component {
 		return (
 			<Context.Consumer>
 				{({ store, actions }) => {
-					console.log(this);
 					const serviceId = this.props.match.params.theindex;
 					let service = store.serviceCatalog.find(s => s.id == serviceId);
 					if (typeof service == "undefined") return "service not found";

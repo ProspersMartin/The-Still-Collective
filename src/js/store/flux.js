@@ -62,7 +62,6 @@ const getState = ({ getStore, setStore }) => {
 
 		actions: {
 			logoutClient: id => {
-				console.log("WhataLoo");
 				setStore({ tempLoggedUser: null, token: null });
 			},
 			authenticateLogin: (email, password, history) => {
@@ -72,7 +71,6 @@ const getState = ({ getStore, setStore }) => {
 					return item.email == email;
 				});
 
-				console.log(loggedUser);
 				fetch(url, {
 					method: "POST",
 					headers: {
@@ -86,7 +84,6 @@ const getState = ({ getStore, setStore }) => {
 				})
 					.then(response => response.json())
 					.then(token => {
-						console.log("oooooooooooooooo", token);
 						if (typeof token.msg != "undefined") {
 							// Notify.error(token.msg);
 						} else {
