@@ -20,7 +20,7 @@ import { Terms } from "./views/termsConditions";
 import { Checkout } from "./views/checkout";
 import { Cart } from "./views/cart";
 import { Confirmation } from "./views/confirmation";
-// import { Notifier } from "bc-react-notifier";
+import { Notifier } from "bc-react-notifier";
 
 // Imports of Initial Views that ended up NOT being used:
 // import { SinglePortfolioPage } from "./views/singlePortfolioPage";
@@ -39,7 +39,7 @@ export class Layout extends React.Component {
 				<BrowserRouter basename={basename}>
 					<ScrollToTop>
 						<Navbar />
-						{/* <Notifier /> */}
+						<Notifier />
 						<Switch>
 							<Route exact path="/" component={Still} />
 

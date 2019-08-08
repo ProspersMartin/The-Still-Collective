@@ -4,9 +4,6 @@ import { Context } from "../store/appContext";
 import PropTypes from "prop-types";
 
 export class Navbar extends React.Component {
-	// componentDidMount() {
-	// 	document.querySelector("nav").style.backgroundColor = "green";
-	// }
 
 	render() {
 		let path = window.location.pathname;
