@@ -9,14 +9,6 @@ import { Context } from "../store/appContext";
 import "../../styles/index.scss";
 import { Session } from "bc-react-session";
 
-// Session.start({
-// 	payload: {
-// 		name: [],
-// 		price: []
-// 	},
-// 	expiration: 86400000
-// });
-
 export class Services extends React.Component {
 	render() {
 		return (

@@ -10,6 +10,9 @@ export class Portfolio extends React.Component {
 					<span id="portfolio_TPpage">T</span>
 					<span id="portfolio_Ppage">folio</span>
 				</div>
+				<div className="portfolio_page_description text-center mt-2 mb-5">
+					<h1>Among the services The sTill Collective offers, the following are our premier services.</h1>
+				</div>
 				<div className="jumbotron mt-5 mb-5">
 					<div className="row">
 						<div className="col-4">
@@ -17,8 +20,8 @@ export class Portfolio extends React.Component {
 
 							<p className="lead">
 								{" "}
-								Skip steps to save time and/or money, but take it from the experts: cutting corners will
-								only cost you in the long run
+								{/* Skip steps to save time and/or money, but take it from the experts: cutting corners will
+								only cost you in the long run */}
 							</p>
 							<hr className="my-4" />
 							<p />
@@ -30,13 +33,14 @@ export class Portfolio extends React.Component {
 						<div className="col-4">
 							<img
 								className="card-img-top"
-								src="https://d2w9rnfcy7mm78.cloudfront.net/1473357/original_9b105ddf959b3c3b1ce4b55fc7ed5939.png?1512137762"
+								src="https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80"
+								// src="https://d2w9rnfcy7mm78.cloudfront.net/1473357/original_9b105ddf959b3c3b1ce4b55fc7ed5939.png?1512137762"
 								alt="Card image cap"
 							/>
 						</div>
 					</div>
 				</div>
-				<div className="jumbotron mb-5">
+				<div className="jumbotron col-md-12 mb-5">
 					<div className="row">
 						<div className="col-4">
 							<img

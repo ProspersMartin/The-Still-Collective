@@ -4,7 +4,6 @@ import { Context } from "../store/appContext";
 import PropTypes from "prop-types";
 
 export class Navbar extends React.Component {
-
 	render() {
 		let path = window.location.pathname;
 
@@ -37,7 +36,7 @@ export class Navbar extends React.Component {
 									</Link>
 								</li>
 								<li className="nav-item mr-4">
-									<Link to="/Services" className="navbarlink">
+									<Link to="/Services" className="navbarlink" id="servicesNav">
 										Services
 									</Link>
 								</li>

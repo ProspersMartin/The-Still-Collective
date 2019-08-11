@@ -1,8 +1,13 @@
-// @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
-// @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
-
+ 
 
         // GENERAL STYLING (That affects every page) //
+                        // This is the corresponding styling to the changes I tried to make to 
+                        // the template html, in attempts of successfully making it responsive 
+                        // to the iPhone X display on Sunday, August 11th.
+                            // .wholePage{
+                            //     max-width: 100%;
+                            //     max-height: 100%;
+                            // }
                             body{
                                 background: linear-gradient(249deg, #f3a201e0 38%, #f5a80f 70%);
                             }
@@ -44,28 +49,35 @@
                     //"Portfolio" Link
                             #portfolio_porNav{
                                 position: relative;
-                                bottom: 1px;
-                                line-height: 1.8;
+                                bottom: 0.5px;
                             }
                             #portfolio_TNav{
                                 font-family: 'Cinzel', serif;
                             }
                             #portfolio_folioNav{
                                 position: relative;
-                                bottom: 1px;
+                                bottom: 0.5px;
+                            }
+
+                    //"Services" Link
+                            #servicesNav{
+                                position: relative;
+                                bottom: 2.5px;
                             }
 
                     //"Collective" Link
                             #collective_collecNav{
                                 position: relative;
-                                bottom: 1px;
+                                bottom: 0.5px;
                             }
                             #collective_TNav{
                                 font-family: 'Cinzel', serif;
                             }
                             #collective_iveNav{
                                 position: relative;
-                                bottom: 1px;
+                            }
+                            #collective_loginNav{
+                                position: relative;
                             }
  
                     //"Logout" Link
@@ -142,6 +154,7 @@
                                 color: black;
                                 text-decoration: none;
                             }
+
                     //Still
                             #still_sFooter{
                                 position: relative;
@@ -156,7 +169,7 @@
 
 
         // LANDING (HOME/ "ABOUT") PAGE //
-                    //Landing (Home/ "About") Page Effects
+                        //Landing (Home/ "About") Page Effects
                             .fadein {
                                 font-size: 21px;
                                 text-align: center;
@@ -199,8 +212,8 @@
                                 }
                             }
 
-            //Center of "About/Homepage"
-                //Text Effects
+                //Center of "About/Homepage"
+                        //Text Effects
                             //.hide {
                                 //visibility: hidden;
                             //}
@@ -212,11 +225,9 @@
                                 font-size: 290px;
                                 line-height: 150px;
                             }
-
                             .stillT{
                                 font-family: 'Cinzel', serif;
                             }
-
                             .sPositioning {
                                 position: relative;
                                 left: 40px;
@@ -231,6 +242,7 @@
                     //Main "Collective" text
                             #collective{
                                 font-family:'Josefin Sans', sans-serif;
+                                font-weight: 300;
                                 font-size: 42px;
                             }
                                 //Main "Collective" shadow
@@ -244,9 +256,11 @@
                     //Main "S.I.M. (Strategy Identity Marketing)" text
                             .SIM {
                                 font-family: 'Josefin Sans', sans-serif;
+                                font-weight: 300;
                                 font-size:22px;
                             }
-            //Bottom of "About/Homepage"
+
+                //Bottom of "About/Homepage"
                     //Main "About Us" text blurb
                             .aboutus {
                                 width: 75%;
@@ -256,27 +270,41 @@
                             }
                             .about {
                                 font-size: 20px;
+                                font-weight: 300;
                                 background-color: white;
                                 border-bottom:1px solid black;
                                 padding: 38px;
                             }
                             
         // PORTFOLIO PAGE //
-                    //"Portfolio" Header
+                    //"Portfolio" Header and Description
                             .portfolio_page_header {
                                 color:whitesmoke;
                                 font-family: 'Dancing Script', cursive;
                                 font-size:  100px;
                             }
-                            #portfolio_Ppage{
-                                position: relative;
+                            .portfolio_page_description{
+                                color:whitesmoke;
+                                font-family:  'Josefin Sans', sans-serif;
+                                font-weight: 700;
+                                width:45%;
+                                margin:auto;
+                                    h1 {
+                                        margin-bottom: 60px;
+                                        margin-top: 20px;
+                                    }
                             }
-                            #portfolio_TPpage{
+                            #portfolio_Ppage {
+                                position: relative;
+                                bottom: 1px;
+                            }
+                            #portfolio_TPpage {
                                 font-family: 'Cinzel', serif;
                             }
-
+                        
                     // Portfolio Jumbotrons
                             .jumbotron {
+                                width: 100%;
                                 border-bottom:solid;
                                 border-top:solid;
                                 background-color: white;
@@ -288,7 +316,7 @@
                                 border:solid;
                             }
 
-                            .myarrow{
+                            .myarrow {
                                 position:absolute;
                                 top:0;
                                 bottom:0;
@@ -416,7 +444,6 @@
         // "LOGIN" PAGE //
                             .logintitle{
                                 font-family:'Cinzel', serif;
-
                             }
                             .loginbottom{
                                 font-family:'Cinzel', serif;
@@ -441,7 +468,7 @@
 
 
 
-.card-click {
+.card-click{
     cursor:pointer;
 }
 
@@ -487,10 +514,10 @@
 * {
     box-sizing: border-box;
 }
-.App {
-    max-width: 420px;
-    margin: 0 auto;
-}
+// .App {
+//     max-width: 420px;
+//     margin: 0 auto;
+// }
 p {
     text-align: center;
     font-weight: 500;
