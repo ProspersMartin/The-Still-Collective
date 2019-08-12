@@ -62,7 +62,7 @@
                     //"Services" Link
                             #servicesNav{
                                 position: relative;
-                                bottom: 2.5px;
+                                bottom: 1px;
                             }
 
                     //"Collective" Link
@@ -444,6 +444,7 @@
         // "LOGIN" PAGE //
                             .logintitle{
                                 font-family:'Cinzel', serif;
+
                             }
                             .loginbottom{
                                 font-family:'Cinzel', serif;
@@ -457,9 +458,13 @@
                             .registerbottom{
                                 font-family:'Cinzel', serif;
                             }
+        // "CONTACT" PAGE //
+                            .App{
+                                max-width: 420px;
+                                margin: 0 auto;
+                            }
 
-
-        // CONFIRMATION PAGE //
+        // "CONFIRMATION" PAGE //
                             .App{
                                 font-family: 'Josefin Sans', sans-serif;
                                 border:solid;
@@ -514,10 +519,6 @@
 * {
     box-sizing: border-box;
 }
-// .App {
-//     max-width: 420px;
-//     margin: 0 auto;
-// }
 p {
     text-align: center;
     font-weight: 500;

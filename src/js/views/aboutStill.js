@@ -33,13 +33,13 @@ export class Still extends React.Component {
 							<span className="stillT">T</span>
 							<span className="illpositioning">ill</span>
 						</div>
-						<div id="collective" className="col-md-12 pt-1 pb-5 text-center elegantshadow fadein">
+						<div id="collective" className="col-md-12 pt-1 pb-2 text-center elegantshadow fadein">
 							C O L L E C T I V E
 						</div>
 					</div>
 
 					<div className="fadein SIM text SIM">
-						<div className="row mt-4">
+						<div className="row my-5">
 							<div className="col-sm text-center">STRATEGY</div>
 							<div className="col-sm text-center">IDENTITY</div>
 							<div className="col-sm text-center">MARKETING</div>
