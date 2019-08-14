@@ -62,7 +62,7 @@
                     //"Services" Link
                             #servicesNav{
                                 position: relative;
-                                bottom: 1px;
+                                bottom: 2.8px;
                             }
 
                     //"Collective" Link
@@ -308,12 +308,18 @@
                                 border-bottom:solid;
                                 border-top:solid;
                                 background-color: white;
+                                border-radius: 0;
+                            }
+                            .lead{
+                                text-align: justify;
                             }
                             .display-4{
                                 font-family:  'Josefin Sans', sans-serif;
                             }
                             .card-img-top {
                                 border:solid;
+                                border-top-left-radius: 0;
+                                border-top-right-radius: 0;
                             }
 
                             .myarrow {
