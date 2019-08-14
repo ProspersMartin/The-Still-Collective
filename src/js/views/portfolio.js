@@ -21,9 +21,9 @@ export class Portfolio extends React.Component {
 								Rebranding
 							</h1>
 							<p className="lead">
-								Is your company struggling to connect with the needs of its customers? Does your brand
-								or company message convey something different than that of your products or services?
-								Has your company&apos;s ability to match current industry standards and trends? If the
+								Is your company struggling to connect with the needs of its customers? <br /> Does your brand
+								or company message convey something different than that of your products or services? <br />
+								Has your company&apos;s ability to match current industry standards and trends? <br /> If the
 								answer is Yes to any of these questions, your brand may be in need of a Corporate
 								overhaul. Corporate Rebranding can be a massive undertaking. and can mean the difference
 								between whether your business ends up closing its doors, or sees success for aeons to
