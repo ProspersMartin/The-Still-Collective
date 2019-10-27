@@ -13,6 +13,7 @@ export class Services extends React.Component {
 	render() {
 		return (
 			<div>
+				<div className="service_page_header text-center mb-5">Services</div>
 				<div className="container rounded-0 bg-red">
 					<div className="row">
 						<div className="col-md-4">
@@ -180,7 +181,7 @@ export class Services extends React.Component {
 					</div>
 				</div>
 				<div className="my-5 text-center">
-					<Button className="mx-3 " variant="light" size="lg">
+					<Button className="mx-3" id="proceed2ChkOut" variant="light" size="lg">
 						<Link to="/checkout">Proceed to Checkout</Link>
 					</Button>
 				</div>
