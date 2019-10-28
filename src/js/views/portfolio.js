@@ -1,4 +1,7 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
+
 import "../../styles/index.scss";
 
 export class Portfolio extends React.Component {
@@ -10,10 +13,10 @@ export class Portfolio extends React.Component {
 					<span id="portfolio_TPpage">T</span>
 					<span id="portfolio_Ppage">folio</span>
 				</div>
-				<div className="portfolio_page_description text-center mt-2 mb-5">
+				<div className="portfolio_page_description text-center mt-2">
 					<h1>Among the services The sTill Collective offers, the following are our premier services.</h1>
 				</div>
-				<div className="jumbotron mt-5 mb-5">
+				<div className="jumbotron" id="corpRebMain">
 					<div className="row">
 						<div className="col-6" id="corpReb">
 							<h1 className="display-4 Portfoliohead mb-4">Corporate Rebranding</h1>
@@ -49,11 +52,12 @@ export class Portfolio extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="jumbotron mt-5 mb-5">
+				<div className="jumbotron" id="webDesMain">
 					<div className="row">
 						<div className="col-6">
 							<img
 								className="card-img-top"
+								id="webDesImg"
 								src="https://www.sharplaunch.com/wp-content/uploads/2016/02/commercial-real-estate-website-design-responsive-image.png"
 								alt="Card image cap"
 							/>
@@ -67,11 +71,11 @@ export class Portfolio extends React.Component {
 							design or thought-provoking content. It needs to have a style that feeds into your website’s
 							user experience and functionality while being easy to understand at first glance.
 							<p />
-							<hr className="my-4" />
+							<hr className="my-4" id="webDesUnderline" />
 						</div>
 					</div>
 				</div>
-				<div className="jumbotron mb-5">
+				<div className="jumbotron" id="socialMediaMngmtMain">
 					<div className="row">
 						<div className="col-6" id="socialMediaMngmt">
 							<h1 className="display-4">Social Media Managment</h1>
@@ -93,6 +97,14 @@ export class Portfolio extends React.Component {
 							/>
 						</div>
 					</div>
+				</div>
+				<div className="my-5 text-center">
+					<h1 className="display-5 pb-3">Choose from Available Services</h1>
+					<Link to="/services">
+						<Button className="mx-3" id="portfolioToServices" variant="secondary" size="lg">
+							Services
+						</Button>
+					</Link>
 				</div>
 			</div>
 		);

@@ -17,7 +17,11 @@ export class Services extends React.Component {
 				<div className="container rounded-0 bg-red">
 					<div className="row">
 						<div className="col-md-4">
-							<h2 className="text-center maintitle1">Strategy</h2>
+							<h2 className="maintitle1 text-center">
+								<span id="strategy_SServ">s</span>
+								<span id="strategy_TServ">T</span>
+								<span id="strategy_rategyServ">rategy</span>
+							</h2>
 							<p className="servicep">
 								We help you build trust with your customers, through a comprehensive layout of your
 								business objectives and how to execute them.
@@ -51,7 +55,11 @@ export class Services extends React.Component {
 						</div>
 
 						<div className="col-md-4">
-							<h2 className="text-center maintitle2">Identity</h2>
+							<h2 className="maintitle2 text-center">
+								<span id="identity_IdenServ">Iden</span>
+								<span id="identity_TServ">T</span>
+								<span id="identity_ityServ">ity</span>
+							</h2>
 							<p className="servicep">
 								Design, Logos, and Websites - The visuals of your business, essential for Branding so
 								that people know who you are.
@@ -81,7 +89,11 @@ export class Services extends React.Component {
 						</div>
 
 						<div className="col-md-4">
-							<h2 className="text-center maintitle3">Marketing</h2>
+							<h2 className="maintitle3 text-center">
+								<span id="marketing_MarkeServ">Marke</span>
+								<span id="marketing_TServ">T</span>
+								<span id="marketing_ingServ">ing</span>
+							</h2>
 							<p className="servicep">
 								A successful business is one that has its name out there. Need help spreading the word?
 								We&apos;ve got you covered.
@@ -113,14 +125,24 @@ export class Services extends React.Component {
 				</div>
 
 				<div className="container rounded-0 my-5 bg-red">
-					<h1 className="text-center p-3 servicepackages">sTill Packages</h1>
+					<h1 className="servicepackages text-center p-3">
+						<span id="still_sServPacks">s</span>
+						<span id="still_TServPacks">T</span>
+						<span id="still_illServPacks">ill</span> <span id="packagesServPacks">Packages</span>
+					</h1>
 					<div className="card-deck">
 						<div className="card bg-details1">
 							{/* This is where the onClick will be set for the selection of the package. */}
 							<div className="card-body ">
-								<h5 className="card-title stillp ">sTill Standard</h5>
+								<h5 className="card-title stillp text-center">
+									<span id="still_sStndrPack">s</span>
+									<span id="still_TStndrPack">T</span>
+									<span id="still_illStndrPack">ill</span> <span id="standard_sStndrPack">s</span>
+									<span id="standard_TStndrPack">T</span>
+									<span id="standard_andardPack">andard</span>
+								</h5>
 								<hr />
-								<p className="card-text li">This package includes:</p>
+								<p className="card-text li">The Standard package includes:</p>
 
 								<ul className="li">
 									<li>Logo Design</li>
@@ -135,7 +157,12 @@ export class Services extends React.Component {
 						</div>
 						<div className="card bg-details2">
 							<div className="card-body">
-								<h5 className="card-title stillp ">Supreme Collective</h5>
+								<h5 className="card-title stillp text-center">
+									<span id="supreme_suprmPack">Supreme</span>{" "}
+									<span id="Collective_collecSuprmPack">Collec</span>
+									<span id="Collective_TsuprmPack">T</span>
+									<span id="Collective_iveSuprmPack">ive</span>
+								</h5>
 								<hr />
 								<p className="card-text li">Our Collective Package entails the following services.</p>
 								<ul className="li">
@@ -159,7 +186,11 @@ export class Services extends React.Component {
 						</div>
 						<div className="card bg-details3">
 							<div className="card-body">
-								<h5 className="card-title stillp"> sTill Savage</h5>
+								<h5 className="card-title stillp text-center">
+									<span id="still_sSvgPack">s</span>
+									<span id="still_TSvgPack">T</span>
+									<span id="still_illSvgPack">ill</span> <span id="savage_SvgPack">Savage</span>
+								</h5>
 								<hr />
 								<p className="card-text li">The Platinum Package includes:</p>
 								<ul className="li">
@@ -181,9 +212,11 @@ export class Services extends React.Component {
 					</div>
 				</div>
 				<div className="my-5 text-center">
-					<Button className="mx-3" id="proceed2ChkOut" variant="light" size="lg">
-						<Link to="/checkout">Proceed to Checkout</Link>
-					</Button>
+					<Link to="/checkout">
+						<Button className="mx-3" id="proceed2ChkOut" variant="secondary" size="lg">
+							Proceed to Checkout
+						</Button>
+					</Link>
 				</div>
 			</div>
 		);

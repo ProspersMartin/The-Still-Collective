@@ -39,9 +39,9 @@ export class Cart extends React.Component {
 													<h4 className="product-name">
 														<strong>{item.service_name}</strong>
 													</h4>
-													<h4>
+													<h5 className="product-description">
 														<small>{makeExcerpt(item.description, 10)}</small>
-													</h4>
+													</h5>
 												</div>
 												<div className="col-6  text-md-right row">
 													<div
@@ -73,9 +73,7 @@ export class Cart extends React.Component {
 								<div className="card-footer">
 									<div className="pull-right" style={{ margin: "10px" }}>
 										<Link to="/checkout">
-											<a href className="btn btn-dark pull-center">
-												Checkout
-											</a>
+											<button className="btn btn-dark">Checkout</button>
 										</Link>
 										<div className="pull-right" style={{ margin: "5px" }}>
 											Total price:{" "}

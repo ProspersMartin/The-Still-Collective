@@ -310,10 +310,13 @@
                                 background-color: white;
                                 border-radius: 0;
                             }
-                            .lead{
-                                text-align: justify;
-                                font-size:  16px;
-                                font-weight: 400;
+                            .hr {
+                                border-color: #6d6c6c;
+                            }
+                            #corpRebMain {
+                                margin-top: 75;
+                                margin-bottom:0;
+                                border-bottom:none;
                             }
                             #corpReb{
                                 padding-top: 45px;
@@ -321,9 +324,28 @@
                             #corpRebBod{
                                 padding-right: 60px;
                             }
+                            #webDesMain {
+                                background-color: #6d6c6c;
+                                border:none;
+                                margin-bottom:0;
+                            }
                             #webDes{
+                                color: white;
                                 padding-top: 100px;
                                 padding-left: 60px;
+                            }
+                            #webDesUnderline {
+                                border-color: white;
+                            }
+                            #socialMediaMngmtMain {
+                                border-top:none;
+                                margin-top: 0;
+                                margin-bottom: 50px;
+                            }
+                            .lead{
+                                text-align: justify;
+                                font-size:  16px;
+                                font-weight: 400;
                             }
                             #socialMediaMngmt{
                                 padding-top: 115px;
@@ -332,30 +354,22 @@
                             .display-4{
                                 font-family:  'Josefin Sans', sans-serif;
                             }
+                            .display-5{
+                                color: white;
+                                font-family: 'Dancing Script', cursive;
+                            }
                             .card-img-top {
                                 border:solid;
                                 border-top-left-radius: 0;
                                 border-top-right-radius: 0;
                             }
-
-                            .myarrow {
-                                position:absolute;
-                                top:0;
-                                bottom:0;
-                                transform: rotate(90deg);
+                            #webDesImg {
+                                border:none;
                             }
                             .line {
                                 border-right: 0.2rem dashed rgb(5, 1, 1);
                                 display:inline-block;
                                 height:5rem;
-                            }
-                            .arrow{
-                                position:absolute;
-                                top:-0.3rem;
-                                bottom:0;
-                                height:1rem;
-                                border-right: 0.2rem solid rgb(7, 5, 5);
-                                display: inline-block;
                             }
                             .right{
                                 left:0.3rem;
@@ -365,6 +379,43 @@
                                 right:0.3rem;
                                 transform: rotate(45deg);
                             }
+                            .btn-dark {
+                                // color: black;
+                                // background-color: white;
+                                // border-color: black;
+                            }
+                            .btn-dark:hover {
+                                // color: white;                            
+                                // background-color: #6d6c6c;
+                                // border-color: black;
+                            }
+                            #portfolioToServices{
+                                font-family: 'Josefin Sans', sans-serif;
+                            }
+                            // .btn-secondary-text:hover {
+                            //     color: white;                            
+                            // }                   
+                            // a {
+                            //     color: white;
+                            //     text-decoration: none;
+                            // }
+                            // a:hover {
+                            //     color: white !important;
+                            // }
+                            // .myarrow {
+                            //     position:absolute;
+                            //     top:0;
+                            //     bottom:0;
+                            //     transform: rotate(90deg);
+                            // }
+                            // .arrow{
+                            //     position:absolute;
+                            //     top:-0.3rem;
+                            //     bottom:0;
+                            //     height:1rem;
+                            //     border-right: 0.2rem solid rgb(7, 5, 5);
+                            //     display: inline-block;
+                            // }
 
 
         // "SERVICES" PAGE //
@@ -377,28 +428,65 @@
                                 text-align: left;
                                 font-weight: 500;
                             }
-                            .shadowdiv{
-                               box-shadow: -15px 15px;
-                               background-color: black;
 
+                //"Single Service" Selections Section" 
+                    //Service Headers 
+                            .maintitle1 {
+                                font-family: 'Dancing Script', cursive;
+                                font-size: 32px;
                             }
-                            .bg-red {
-                                background-color:rgb(255, 255, 255);
-                                border: 5px solid black;
-                                border-radius: 25px;
-                                background: linear-gradient(120deg, #e7e7e7 50%, #ffffff 70%);
+                                #strategy_SServ{
+                                    position: relative;
+                                    bottom: 2px;
+                                    margin-right: -3px;
+                                }
+                                #strategy_TServ{
+                                    font-family: 'Cinzel', serif;
+                                }
+                                #strategy_rategyServ{
+                                    position: relative;
+                                    bottom: 1px;
+                                    margin-left: -1px;
+                                }
+                            .maintitle2 {
+                                font-family: 'Dancing Script', cursive;
+                                font-size: 32px;
+                            }
+                                #identity_IdenServ{
+                                    position: relative;
+                                    bottom: 1px;
+                                    margin-right: -3px;
+                                }
+                                #identity_TServ{
+                                    font-family: 'Cinzel', serif;
+                                }
+                                #identity_ityServ{
+                                    position: relative;
+                                    bottom: 1px;
+                                    margin-left: -1px;
+                                }
+                            .maintitle3 {
+                                font-family: 'Dancing Script', cursive;
+                                font-size: 32px;                            
+                            }
+                                #marketing_MarkeServ{
+                                    position: relative;
+                                    bottom: 2px;
+                                    margin-right: -3px;
+                                }  
+                                #marketing_TServ{
+                                    font-family: 'Cinzel', serif;
+                                }
+                                #marketing_ingServ{
+                                    position: relative;
+                                    bottom: 1px;
+                                    margin-left: -1px;
+                                }
+                        // Buttons for "Single Service" Selection
 
-                            }
-                            .servicepackages{
-                                font-family:'Josefin Sans', sans-serif;
-                                font-size: 80px;
-                            }
-                            .stillp{
-                                font-family:'Josefin Sans', sans-serif;
-                                font-size: 30px
-                            }
-                            .li{
-                                font-family: 'Cinzel', serif;
+                            .servicetext {
+                                color:white;
+                                font-family: 'Josefin Sans', sans-serif;
                             }
                             .servicecard2 {
                                 background-color: rgb(155, 153, 153);
@@ -412,16 +500,119 @@
                                 -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
                                 -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
                                 box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
-                    /* This protects the inner element from being blurred */
+                        /* This protects the inner element from being blurred */
                                 filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
                                 -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
                                 zoom: 1;
                                 position: relative; 
                             }
-                            .servicetext {
-                                color:white;
-                                font-family: 'Josefin Sans', sans-serif;
+                            .shadowdiv{
+                               box-shadow: -15px 15px;
+                               background-color: black;
+                            }
+                            .bg-red {
+                                background-color:rgb(255, 255, 255);
+                                border: 5px solid black;
+                                border-radius: 25px;
+                                background: linear-gradient(120deg, #e7e7e7 50%, #ffffff 70%);
+                            }
 
+                //"Service Packages" Selections Section"
+                    //Packages Section Headers 
+                        //Packages Main Header
+                            .servicepackages{
+                                font-family: 'Dancing Script', cursive;
+                                font-size: 80px;
+                            }
+                                #still_sServPacks{
+                                    position: relative;
+                                    bottom: 3px;
+                                    margin-right: -10px;
+                                }   
+                                #still_TServPacks{
+                                    font-family: 'Cinzel', serif !important;
+                                }
+                                #still_illServPacks{
+                                    position: relative;
+                                    bottom: 1px;
+                                    margin-left: -5px;
+                                }
+                                #packagesServPacks{
+                                    bottom: 1px;
+                                }
+                        //Packages Sub-Headers
+                            .stillp{
+                                font-family: 'Dancing Script', cursive;
+                                font-size: 30px
+                            }
+                            //sTill Standard
+                                #still_sStndrPack{
+                                    position: relative;
+                                    bottom: 2px;
+                                    margin-right: -3px;
+                                }
+                                #still_TStndrPack{
+                                    font-family: 'Cinzel', serif !important;
+                                }
+                                #still_illStndrPack{
+                                    position: relative;
+                                    bottom: 1px;
+                                    margin-left: -1px;
+                                }
+                                #standard_sStndrPack{
+                                    position: relative;
+                                    bottom: 2px;
+                                    margin-right: -3px;
+                                    margin-left: 3px;
+                                }
+                                #standard_TStndrPack{
+                                    font-family: 'Cinzel', serif !important;
+                                }
+                                #standard_andardStndrPack{
+                                    position: relative;
+                                    bottom: 3px;
+                                    margin-left: -1px;
+                                }
+                            //Supreme Collective
+                                #supreme_suprmPack{
+                                    position: relative;
+                                    bottom: 2px;
+                                }
+                                #Collective_collecSuprmPack{
+                                    position: relative;
+                                    bottom: 2px;
+                                    margin-right: -3px;
+                                    margin-left: 3px;
+                                }
+                                #Collective_TsuprmPack{
+                                    font-family: 'Cinzel', serif !important;
+                                }
+                                #Collective_iveSuprmPack{
+                                    position: relative;
+                                    bottom: 1px;
+                                    margin-left: -1px;
+                                }
+                            //sTill Savage
+                                #still_sSvgPack{
+                                    position: relative;
+                                    bottom: 2px;
+                                    margin-right: -3px;
+                                }
+                                #still_TSvgPack{
+                                    font-family: 'Cinzel', serif !important;
+                                }
+                                #still_illSvgPack{
+                                    position: relative;
+                                    bottom: 1px;
+                                    margin-left: -1px;
+                                }
+                                #savage_SvgPack{
+                                    position: relative;
+                                    bottom: 1px;
+                                    margin-left: -1px;
+                                }
+                            .li{
+                                font-family:'Josefin Sans', sans-serif;
                             }
                             .servicep{
                                 font-family:'Josefin Sans', sans-serif;
@@ -438,42 +629,47 @@
                                 background-color: rgb(204, 201, 201);
                                 color: white;
                             }
-                            hr-white {
-                                color: white;
+                            .hr {
+                                border-color: white;
                                 border:10px;
                             }
 
-                    //Service Headers
-                            .maintitle1 {
-                                font-family: 'Josefin Sans', sans-serif;
-                            }
-                            .maintitle2 {
-                                font-family: 'Josefin Sans', sans-serif;
-                            }
-                            .maintitle3 {
-                                font-family: 'Josefin Sans', sans-serif;
-                            }
-        
                     //Service Proceed to Checkout Button
                             #proceed2ChkOut{
-                                color: #000;
                                 font-family: 'Josefin Sans', sans-serif;
                             }     
 
-                    //singleservice//
+
+        //Single Service Page//
+                            .container {
+                                max-width: auto !important;
+                            }
                             .singleservice{
-                                border-top:solid;
-                                border-bottom:solid;
+                                border:solid;
+                                // border-bottom:solid;
+                                // border-radius: 0;
                             }
                             .singletext1{
-                                font-family:   'Cinzel', serif;
-                                border-bottom :double;
+                                font-family: 'Josefin Sans', sans-serif;
+                                // border-bottom :double;
                             }
                             .singletext2{
-                                font-family:   'Cinzel', serif;
+                                font-family: 'Josefin Sans', sans-serif;
+                                bottom: 20px;
                             }
-
-
+                            #singleServicePrice{
+                                top:5px;
+                                font-size: 28px;
+                                margin-right: 10px;
+                            }
+                              
+        //CART PAGE//
+                            .product-name{
+                                font-family: 'Josefin Sans', sans-serif;
+                            }
+                            .product-description{
+                                font-family: 'Josefin Sans', sans-serif;
+                            }
         // "LOGIN" PAGE //
                             .logintitle{
                                 font-family:'Cinzel', serif;
@@ -496,6 +692,28 @@
                                 max-width: 420px;
                                 margin: 0 auto;
                             }
+        // "CHECKOUT" PAGE //
+                            #stillCheckOut{
+                                font-family: 'Josefin Sans', sans-serif;
+                                border:solid;
+                            }
+                            .stillLogoChkOut{
+                                font-family: 'Dancing Script', cursive;
+                                font-size: 100px;
+                            }
+                                #sChkOut{
+                                    position: relative;
+                                    bottom: 3px;
+                                    margin-right: -10px;
+                                }   
+                                #stillTChkOt{
+                                    font-family: 'Cinzel', serif !important;
+                                }
+                                #illChkOut{
+                                    position: relative;
+                                    bottom: 1px;
+                                    margin-left: -5px;
+                                }
 
         // "CONFIRMATION" PAGE //
                             .App{

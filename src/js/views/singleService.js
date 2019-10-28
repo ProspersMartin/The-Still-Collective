@@ -15,7 +15,7 @@ export class SingleService extends React.Component {
 						<div className="container singleservice">
 							<div className="row">
 								<div className="col-md-6 m-auto singletext1">
-									<h1>{service.service_name}</h1>
+									<h1 className="my-4">{service.service_name}</h1>
 								</div>
 							</div>
 							<div className="row">
@@ -25,10 +25,12 @@ export class SingleService extends React.Component {
 							</div>
 							<div className="row">
 								<div className="col-md-6 m-auto">
-									<span>${service.price} </span>
+									<span className="text-center" id="singleServicePrice">
+										${service.price}{" "}
+									</span>
 									<button
 										type="button"
-										className="btn btn-info"
+										className="btn btn-dark"
 										onClick={() => actions.addToShoppingBag(service)}>
 										Add to Cart
 									</button>

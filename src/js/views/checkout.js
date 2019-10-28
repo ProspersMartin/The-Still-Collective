@@ -9,12 +9,12 @@ export class Checkout extends React.Component {
 			<Context.Consumer>
 				{({ store, actions }) => {
 					return (
-						<div className="container bgYellow stillT">
-							<div className="py-5 text-center">
-								<div className="stillLogoNav navcolor">
-									<span className="sPositioningNav">s</span>
-									<span className="stillTNav">T</span>
-									<span className="illpositioningNav">ill</span>
+						<div className="container mb-4" id="stillCheckOut">
+							<div className="py-1 text-center">
+								<div className="stillLogoChkOut">
+									<span id="sChkOut">s</span>
+									<span id="stillTChkOt">T</span>
+									<span id="illChkOut">ill</span>
 								</div>
 							</div>
 							<div className="row">
@@ -51,7 +51,7 @@ export class Checkout extends React.Component {
 									{/* Checkout Cart End */}
 									<form className="card p-2">
 										<div className="input-group">
-											<input type="text" className="form-control" />
+											<input type="text" className="form-control mt-0" />
 											<div className="input-group-append">
 												<button type="submit" className="btn btn-secondary">
 													Redeem
